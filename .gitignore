@@ -1,0 +1,20 @@
+# Archivos locales, datos y secretos: nunca publicar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+client_secret*.json
+secrets.json
+*.sqlite
+*.db
+*.csv
+*.xlsx
+.DS_Store
+node_modules/
+private/
+data/
+backups/
